@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Test-tool sessions and potentially sensitive captures
+*.har
+*.burp
+*.session
+*.session*
+*.zap
+*.sqlite
+*.db
+captures/
+raw-traffic/
+
+# Keep evidence directory structure but do not commit evidence by default
+evidence/*
+!evidence/README.md
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,2 @@
+# This repository is a documentation and reporting scaffold.
+# No Python packages are required for the templates.
